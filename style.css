@@ -1,0 +1,92 @@
+body {
+    background-color:#F5EEE6;
+    font-family: 'Roboto', sans-serif;
+    color: #C86B85;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+h1 {
+    color: #C86B85;
+    font-family: 'Playfair Display', serif;
+}
+
+h5 {
+    font-weight: lighter;
+    color: #E6A4B4;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #C86B85;
+}
+
+a:hover {
+    color: black;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+/*@media stuff */
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+@media (max-width: 720px) {
+    .container { 
+        width: 500px;
+    }
+}
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
+/* end of media / responsive part */
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px, 10px, 30px, rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+/* might change my btn to a purple color*/
+.btn-blue {
+    background-color: #f3d7ca;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 50px;
+}
+
+.list-inline i:hover {
+    color: black;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
